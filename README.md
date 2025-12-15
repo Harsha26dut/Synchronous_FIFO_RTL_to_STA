@@ -27,7 +27,7 @@ The design was carried out using the following open-source toolchain:
 1.  **RTL Design & Verification:**
     * **Language:** SystemVerilog
     * **Simulation Environment:** EDAplayground
-    * **Link:** [Insert the link from your EDAplayground_link.txt here]
+    * **Link:** [https://www.edaplayground.com/x/s7kR]
 
 2.  **Logic Synthesis (RTL to Netlist):**
     * **Tool:** Yosys Open-Source Synthesis Suite
