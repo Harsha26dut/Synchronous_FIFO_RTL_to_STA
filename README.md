@@ -49,6 +49,8 @@ You must have the following tools installed and accessible on your path (prefera
 * OpenSTA
 * A Standard Cell Library (e.g., sky130 or any library used for your analysis). *Note: The timing analysis here assumes a basic/generic library for demonstration.*
 
+**I used the free open-source PDK for both Yosys and OpenSTA. You can find it here: [LINK](https://si2.org/open-cell-and-free-pdk-libraries/)**
+
 ### 2. Synthesis and STA.
 
 Run the commands found in [`synthesis/synthesis_commands.txt`](synthesis/synthesis_commands.txt) in your terminal to generate the technology-mapped netlist.
@@ -56,11 +58,3 @@ Run the commands found in [`synthesis/synthesis_commands.txt`](synthesis/synthes
 ```bash
 # Example Yosys commands used:
 yosys -p "read_verilog rtl/fifo.sv; synth -top fifo; write_verilog synthesis/fifo_netlist.v"
-
-
-Execute the commands found in [`sta/commands.tcl`](sta/commands.tcl) by running the OpenSTA tool. This script loads the necessary design components (netlist, library, SDC) and generates the timing reports.
-
-
-# Example OpenSTA command:
-# Run the TCL script that executes the full STA flow.
-sta sta/commands.tcl
