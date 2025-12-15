@@ -58,3 +58,7 @@ Run the commands found in [`synthesis/synthesis_commands.txt`](synthesis/synthes
 ```bash
 # Example Yosys commands used:
 yosys -p "read_verilog rtl/fifo.sv; synth -top fifo; write_verilog synthesis/fifo_netlist.v"
+
+# Example OpenSTA command:
+# Run the TCL script that executes the full STA flow.
+sta sta/commands.tcl
