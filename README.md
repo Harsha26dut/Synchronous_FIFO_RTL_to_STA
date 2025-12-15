@@ -57,12 +57,18 @@ Run the commands found in [`synthesis/synthesis_commands.txt`](synthesis/synthes
 # Example Yosys commands used:
 yosys -p "read_verilog rtl/fifo.sv; synth -top fifo; write_verilog synthesis/fifo_netlist.v"
 
-```markdown
+### 1. Prerequisites
+
+You must have the following tools installed and accessible on your path (preferably in a Linux environment like WSL or Docker):
+* Yosys
+* OpenSTA
+* A Standard Cell Library (e.g., sky130 or any library used for your analysis). *Note: The timing analysis here assumes a basic/generic library for demonstration.*
+
 ### 3. Static Timing Analysis
 
 Execute the commands found in [`sta/commands.tcl`](sta/commands.tcl) by running the OpenSTA tool. This script loads the necessary design components (netlist, library, SDC) and generates the timing reports.
 
-```bash
+
 # Example OpenSTA command:
 # Run the TCL script that executes the full STA flow.
 sta sta/commands.tcl
