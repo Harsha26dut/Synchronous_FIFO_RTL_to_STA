@@ -50,6 +50,8 @@ You must have the following tools installed and accessible on your path (prefera
 * A Standard Cell Library (e.g., sky130 or any library used for your analysis). *Note: The timing analysis here assumes a basic/generic library for demonstration.*
 
 **I used the free open-source PDK for both Yosys and OpenSTA. You can find it here: [LINK](https://si2.org/open-cell-and-free-pdk-libraries/)**
+**I Did Uploaded the entire documentation of this project in linkdin. You can find it here: [LINK](https://www.linkedin.com/in/sai-kumar-konapala/)**
+
 
 ### 2. Synthesis and STA.
 
