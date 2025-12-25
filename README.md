@@ -17,7 +17,7 @@ This repository documents the complete **Register Transfer Level (RTL) to Static
 | `tb/` | Contains the SystemVerilog Testbench (`fifo_tb.sv`) for verification. |
 | `synthesis/` | Contains Yosys synthesis scripts/commands and the resulting netlist. |
 | `sta/` | Contains the timing constraints (`constraints.sdc`) and the OpenSTA analysis scripts and reports. |
-| `EDAplayground_link.txt` | Direct link to the working simulation environment. |
+| `https://www.edaplayground.com/x/s7kR` | Direct link to the working simulation environment. |
 | `README.md` | This document. |
 
 ## 🛠️ Implementation Flow & Tools
